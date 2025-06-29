@@ -7,34 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" class="display" id="display" disabled>
-        <div class="keys">
-            <button class="key" data-action="clear">C</button>
-            <button class="key" data-action="delete">⌫</button>
-            <button class="key" data-value="/">÷</button>
-            <button class="key" data-value="*">×</button>
+    <header class="site-header">
+        <h1>Moderner Rechner</h1>
+    </header>
+    <main>
+        <nav class="toc">
+            <h2>Inhaltsverzeichnis</h2>
+            <ul>
+                <li><a href="artikel1.html">Artikel 1: Moderne Webentwicklung</a></li>
+                <li><a href="artikel2.html">Artikel 2: Tipps zur Nutzung des Rechners</a></li>
+            </ul>
+        </nav>
+        <section class="intro">
+            <p>Willkommen zu unserem modernen Online-Rechner. Führen Sie schnelle Berechnungen bequem direkt im Browser aus.</p>
+        </section>
+        <section class="calculator-wrapper">
+            <div class="calculator">
+                <input type="text" class="display" id="display" disabled>
+                <div class="keys">
+                    <button class="key" data-action="clear">C</button>
+                    <button class="key" data-action="delete">⌫</button>
+                    <button class="key" data-value="/">÷</button>
+                    <button class="key" data-value="*">×</button>
 
-            <button class="key" data-value="7">7</button>
-            <button class="key" data-value="8">8</button>
-            <button class="key" data-value="9">9</button>
-            <button class="key" data-value="-">−</button>
+                    <button class="key" data-value="7">7</button>
+                    <button class="key" data-value="8">8</button>
+                    <button class="key" data-value="9">9</button>
+                    <button class="key" data-value="-">−</button>
 
-            <button class="key" data-value="4">4</button>
-            <button class="key" data-value="5">5</button>
-            <button class="key" data-value="6">6</button>
-            <button class="key" data-value="+">+</button>
+                    <button class="key" data-value="4">4</button>
+                    <button class="key" data-value="5">5</button>
+                    <button class="key" data-value="6">6</button>
+                    <button class="key" data-value="+">+</button>
 
-            <button class="key" data-value="1">1</button>
-            <button class="key" data-value="2">2</button>
-            <button class="key" data-value="3">3</button>
-            <button class="key" data-action="calculate" rowspan="2" class="equal">=</button>
+                    <button class="key" data-value="1">1</button>
+                    <button class="key" data-value="2">2</button>
+                    <button class="key" data-value="3">3</button>
+                    <button class="key" data-action="calculate" class="equal">=</button>
 
-            <button class="key zero" data-value="0">0</button>
-            <button class="key" data-value=".">.</button>
-        </div>
-    </div>
-
-<script src="script.js"></script>
+                    <button class="key zero" data-value="0">0</button>
+                    <button class="key" data-value=".">.</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2024 Beispielunternehmen</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
