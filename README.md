@@ -10,15 +10,18 @@ Die Anwendung befindet sich im Ordner `calculator`.
 
 Der Rechner unterstützt die Grundrechenarten und bietet eine einfache Bedienoberfläche.
 
-## Simple Product Site
+## PHP Product Site
 
-Einfacher Webserver zum Hinzufügen von Produkten mit Bild und Beschreibung.
+Einfache Produktverwaltung mit PHP. Bilder und Beschreibungen lassen sich 
+bequem über einen Admin-Bereich hinzufügen.
 
 ### Starten
 
+Im Ordner `php_site` einen lokalen PHP-Server starten:
+
 ```bash
-python3 simple_site/server.py
+php -S localhost:8000
 ```
 
-Danach im Browser `http://localhost:8000` öffnen. 
-Der Admin-Bereich ist unter `http://localhost:8000/admin` erreichbar.
+Anschließend `http://localhost:8000/index.php` im Browser öffnen.
+Der Admin-Bereich ist unter `http://localhost:8000/admin.php` erreichbar.
