@@ -9,3 +9,16 @@ Die Anwendung befindet sich im Ordner `calculator`.
 2. Die `index.html` im Browser öffnen.
 
 Der Rechner unterstützt die Grundrechenarten und bietet eine einfache Bedienoberfläche.
+
+## Simple Product Site
+
+Einfacher Webserver zum Hinzufügen von Produkten mit Bild und Beschreibung.
+
+### Starten
+
+```bash
+python3 simple_site/server.py
+```
+
+Danach im Browser `http://localhost:8000` öffnen. 
+Der Admin-Bereich ist unter `http://localhost:8000/admin` erreichbar.
