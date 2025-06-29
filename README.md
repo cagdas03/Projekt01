@@ -1,8 +1,7 @@
 # Projekt01
 
 Dieses Repository enthält einen einfachen webbasierten Taschenrechner mit modernem Design.  
-Die Anwendung befindet sich im Ordner `docs`.
-Die GitHub-Pages-Quelle ist auf dieses Verzeichnis eingestellt.
+Der Einstiegspunkt `index.html` befindet sich nun direkt im Hauptverzeichnis. Die Dateien im Ordner `docs` bleiben für GitHub Pages erhalten.
 
 ## Verwendung
 
