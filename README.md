@@ -1,7 +1,8 @@
 # Projekt01
 
 Dieses Repository enthält einen einfachen webbasierten Taschenrechner mit modernem Design.  
-Die Anwendung befindet sich im Ordner `calculator`.
+Die Anwendung befindet sich im Ordner `docs`.
+Die GitHub-Pages-Quelle ist auf dieses Verzeichnis eingestellt.
 
 ## Verwendung
 
